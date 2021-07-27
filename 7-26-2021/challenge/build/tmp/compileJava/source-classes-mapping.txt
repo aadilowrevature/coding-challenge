@@ -1,4 +1,5 @@
-com/challenge/main/challenge2.java
- com.challenge.main.challenge2
 com/challenge/main/challenge1.java
  com.challenge.main.challenge1
+com/challenge/main/challenge2.java
+ com.challenge.main.challenge2
+ com.challenge.main.challenge2$pseudoStack

@@ -1,4 +1,4 @@
-# Weekly Coding Challenge:
+# Weekly Coding Challenge
 
 ## Problem 1: Given two Strings A and B. Find the length of the Longest Common Subsequence (LCS) of the given Strings. Input: A = Minneapolis, B = Minnesota
 

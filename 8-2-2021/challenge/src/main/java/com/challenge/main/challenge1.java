@@ -83,23 +83,10 @@ public class challenge1 {
                     }
                 }
             }
-
-            if(L1<L2) {
-                for (int i = 0; i < L1; i++) {
-                    for (int j = 0; j < L2; j++) {
-                        if(check1.charAt(i)==check2.charAt(j))
-                    }
-                }
-            } else {
-                for (int i = 0; i < L2; i++) {
-                    for (int j = 0; j < L1; j++) {
-
-                    }
-                }
-            }
         }
 
         System.out.println("LCS: " + ans);
+        System.out.println("LCS Length: " +(ans.length()+1)); //added 1
         return ans;
     }
 }

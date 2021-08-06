@@ -12,15 +12,15 @@ If a number is not prime it may have multiple factors, meaning it is possible to
 
 1<=(A-Z)*(1-26)<=26
 
-P=D4=4*4=16\
-R=F3=6*3=18\
-O=C5=3*5=15\
-C=C1=C*1=3\
-E=E1=5*1=5\
-S=S1=19*1=19\
-S=S1=19*1=19\
-O=E3=5*3=15\
-R=C6=3*6=18\
+P=D4 => 4*4=16\
+R=F3 => 6*3=18\
+O=C5 => 3*5=15\
+C=C1 => 3*1=3\
+E=E1 => 5*1=5\
+S=S1 => 19*1=19\
+S=S1 => 19*1=19\
+O=E3 => 5*3=15\
+R=C6 => 3*6=18\
 
 ## Encode Quadrant
 

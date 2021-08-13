@@ -1,0 +1,4 @@
+com/challenge/main/challenge1.java
+ com.challenge.main.challenge1
+ com.challenge.main.challenge1$node
+ com.challenge.main.challenge1$tree

@@ -20,4 +20,5 @@
 
 ## Answer
 
-*
+* b) with only information II you can determine the solution to be 3 days prior. Making the 14th day a Wednesday.
+* b++) using both information I & II, you can determine the solution is Wednesday and realize the month consists of 28 days.

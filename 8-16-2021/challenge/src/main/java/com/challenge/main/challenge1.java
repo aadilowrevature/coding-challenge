@@ -62,6 +62,7 @@ public class challenge1 {
             }
 
                  for(int i = z; i<=index; i++){
+
                     temp+=parse.get(i) + " ";
                     words++;
                      if(parse.get(i).length()>bucket_size){

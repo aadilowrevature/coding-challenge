@@ -1,3 +1,5 @@
 com/challenge/main/challenge1.java
  com.challenge.main.challenge1
  com.challenge.main.challenge1$1
+ com.challenge.main.challenge1$2
+ com.challenge.main.challenge1$3

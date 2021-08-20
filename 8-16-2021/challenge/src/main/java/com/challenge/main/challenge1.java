@@ -31,7 +31,6 @@ public class challenge1 {
             }
             //System.out.println(split[i]);
         }
-
         int index = 0;
         int length = 0;
         String temp = "";
@@ -40,31 +39,44 @@ public class challenge1 {
 
         while(words<parse.size()){
 
-            while((length+parse.get(index).length() + 1 <= bucket_size+1 )&& index< parse.size()-1){
+            while((length+parse.get(index).length() + 1 <= bucket_size+1 ) && index!= parse.size()-1){
 
 
                 if(parse.get(index).length()>bucket_size){
 
-                    bucket.clear();
-                    break;
-                    //return bucket;
-                }
+                    bucket=new ArrayList<String>(){};
+                    return bucket;
+                }else {
+
                     length += parse.get(index).length() + 1;
                     index++;
+                }
+/*
+                if(index== parse.size()){
+                    index--;
+                }
+
+ */
 
                 //System.out.println(index);
             }
 
-                for(int i = z;i<index;i++){
-                    temp+=parse.get(i)+" ";
+                 for(int i = z; i<=index; i++){
+                    temp+=parse.get(i) + " ";
                     words++;
-                    //System.out.println(words);
+                     if(parse.get(i).length()>bucket_size){
+
+                         bucket=new ArrayList<String>(){};
+                         System.out.println(bucket);
+                         return bucket;
+                     }
+
                 }
 
-                //System.out.println(temp);
+            //System.out.println(temp);
                 //index--;
 
-                bucket.add(temp);
+                bucket.add(temp.trim());
 
                 temp="";
                 z=index;

@@ -1,0 +1,2 @@
+com/challenge/main/challenge1.java
+ com.challenge.main.challenge1

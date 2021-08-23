@@ -37,10 +37,9 @@ public class challenge1 {
         int words = 0; //track # of words placed in bucket
         int z=0;
 
-        while(words<parse.size()){
+        while(words<=parse.size()){
 
             while((length+parse.get(index).length() + 1 <= bucket_size+1 ) && index!= parse.size()-1){
-
 
                 if(parse.get(index).length()>bucket_size){
 
@@ -65,6 +64,9 @@ public class challenge1 {
 
                     temp+=parse.get(i) + " ";
                     words++;
+
+                     System.out.println(parse.get(i).length());
+
                      if(parse.get(i).length()>bucket_size){
 
                          bucket=new ArrayList<String>(){};

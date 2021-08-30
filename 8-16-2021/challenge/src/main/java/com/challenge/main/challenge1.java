@@ -9,6 +9,8 @@ public class challenge1 {
         String s = " dont    eat bread with mold  ";
         bucketize(s, 8);
         bucketize(s, 3);
+        bucketize(s, 4);
+        bucketize(s, 5);
         bucketize(s, 25);
     }
 
@@ -65,12 +67,12 @@ public class challenge1 {
                     temp+=parse.get(i) + " ";
                     words++;
 
-                     System.out.println(parse.get(i).length());
+                     //System.out.println(parse.get(i).length());
 
                      if(parse.get(i).length()>bucket_size){
 
                          bucket=new ArrayList<String>(){};
-                         System.out.println(bucket);
+                        System.out.println(bucket);
                          return bucket;
                      }
 
